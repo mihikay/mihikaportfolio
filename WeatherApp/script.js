@@ -1,7 +1,7 @@
 function getWeather() {
   const locationInput = document.getElementById("location-input");
   const location = locationInput.value;
-  const apiKey = "a4dc627d876944a6aae01617230706"; // Replace with your actual API key
+  const apiKey = "a4dc627d876944a6aae01617230706";
 
   const weatherInfo = document.getElementById("weather-info");
   const errorMessage = document.getElementById("error-message");
